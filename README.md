@@ -95,6 +95,7 @@ Again, copy the files to the cloud
 ![image](https://github.com/Silvercrow123456/Lung_nodule_detection_with_LNDb/blob/main/illustration/nodule%20(1).jpg)
 ![image](https://github.com/Silvercrow123456/Lung_nodule_detection_with_LNDb/blob/main/illustration/nodule3(1).jpg)
 ![image](https://github.com/Silvercrow123456/Lung_nodule_detection_with_LNDb/blob/main/illustration/nodule4(1).jpg)
+
 Though most of the nodules are accurately labeled, yet the confidence is very low, why??
 ## Miss diagnosis
 ![image](https://github.com/Silvercrow123456/Lung_nodule_detection_with_LNDb/blob/main/illustration/nodule2(1).png)
