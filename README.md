@@ -71,6 +71,23 @@ os.makedirs("/content/labels", exist_ok=True)
 ```
 ## Start converting .RAW to .jpg
 ```
+#Four different types of slice productions
 !python zero_center.py
-#!python 
+#!python normalize_log.py
+#!python median.py
+#!python gray_conv.py
 ```
+You can copy the results into google cloud so you don't have to re-produce them next time you use this dataset
+```
+!cp -r '/content/train_jpg' '/content/gdrive/MyDrive/(the folder that you store those pictures)'
+```
+## Converting masks into label files 
+```
+%cd "/content/labels"
+!python creating_labels.py
+```
+Again, copy the files to the cloud
+```
+!cp -r '/content/labels' '/content/gdrive/MyDrive/(the folder that you store those pictures)'
+```
+
